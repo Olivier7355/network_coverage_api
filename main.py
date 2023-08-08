@@ -57,13 +57,13 @@ def get_network_coverage(q: str = Query(..., title="Address")) -> dict :
     except APIConnectionError :
         return {"message": "Unable to connect to data.gouv.fr API."}
     except APINoAddressFoundError :
-        return {"message": "data.gouv.fr API can''t found any address. Refine your query."}
+        return {"message": "data.gouv.fr API can\'t find any address. Refine your query."}
     except APIFindMoreThanOneAddressError :
         return {'message': 'data.gouv.fr API found more than one address. Refine your query.'}
     except APICityMissingError :
-        return {'message': 'data.gouv.fr API can''t find the city name. Refine your query.'}
+        return {'message': 'data.gouv.fr API can\'t find the city name. Refine your query.'}
     except DBCityNotFoundError :
-        return {'message': 'The city can''t be found in the network coverage database.'}
+        return {'message': 'The city can\'t be found in the network coverage database.'}
 
     return payload
 
