@@ -19,4 +19,5 @@ API that we can request with a textual address request and retrieve 2G/3G/4G net
 ![no_address](https://github.com/Olivier7355/network_coverage_api/assets/108932082/6c078826-c87c-47e1-a283-432646e5c76d)
   
 ### Calling the endpoint with an unknown address:
-![api_no_address](https://github.com/Olivier7355/network_coverage_api/assets/108932082/1f02882e-fa7c-4ad7-879c-e1a08aaf6b03)
+![unknown](https://github.com/Olivier7355/network_coverage_api/assets/108932082/9c8624f0-da75-40fe-936e-d6994694bb6c)
+
